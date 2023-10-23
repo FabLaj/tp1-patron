@@ -1,0 +1,23 @@
+Manipulation de fichiers et de dossiers virtuels
+n'existent qu'en mémoire lors de la constrution de leur structure
+Par defaut, un dossier racine
+Chaque dossier peut avoir un autre dossier et ou des fichiers (composite)
+Un fichier est une séquence d'octets
+Les noms sont sous la formule suivante example.abc
+Ajout et retrait de fichiers à n'importe quel niveau
+Supprimer un dossier doit être vide
+Ajout de dossier
+Accessible par une classe simple D'API (facade)
+
+fonctions:
+creerFichier(nom.extension)
+creerDossier(nom).
+supprimerFichier(nom.extension)
+supprimerDossier(nom)
+
+Possibilité d'exporter l'arborescence vers un dossier de la machine, ou vers un .zip
+Créer un rapport détaillé dans un rapport HTML
+En vision hiérarchique, avec les informations suivanets
+-nom complet
+-type basé sur l'extension
+-taille en octets (octets, ko, mo, go, etc)
